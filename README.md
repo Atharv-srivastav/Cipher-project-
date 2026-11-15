@@ -137,7 +137,7 @@ cp .env.example .env
 *(Note: Adding `GEMINI_API_KEY` activates Google Gemini LLM evaluation. If omitted, the platform automatically runs using the deterministic `FallbackEvaluator` without breaking!)*
 
 ### 3. Run Development Server
-Start both Express API backend (Port 3001) and Vite Frontend (Port 3000):
+Start both Express API backend (Port 3002) and Vite Frontend (Port 3000):
 ```bash
 npm run dev:full
 ```
